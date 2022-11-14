@@ -6,11 +6,11 @@ public class Card {
 // has a 
 	private Rank rank;
 	private Suit suit;
-	
+
 	public Card(Rank rank, Suit suit) {
-		this.suit = suit; 
+		this.suit = suit;
 		this.rank = rank;
-		
+
 	}
 
 	public int getValue() {
@@ -19,9 +19,8 @@ public class Card {
 
 	@Override
 	public String toString() {
-		return "Card [rank=" + rank + " of  " + ", suit=" + suit + "]";
+		return "Card [ rank = " + rank + " of " + ", suit = " + suit + " ]";
 	}
-
 
 	public Rank getRank() {
 		return rank;
@@ -55,9 +54,5 @@ public class Card {
 		Card other = (Card) obj;
 		return rank == other.rank && suit == other.suit;
 	}
-	
-	
-	
-	
-	
+
 }

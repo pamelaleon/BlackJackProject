@@ -7,7 +7,7 @@ public enum Suit {
 	private String name;
 	
 
-	Suit(String name) {
+	 Suit(String name) {
 		this.name = name;
 	}
 	
